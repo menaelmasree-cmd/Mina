@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Everything ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="hearts"></div>
+
+<section id="login" class="glass">
+<h1>❤️ My Everything ❤️</h1>
+<p>أدخل كلمة السر لفتح هديتك</p>
+<input id="password" type="password" placeholder="كلمة السر">
+<button onclick="unlock()">فتح الهدية 🎁</button>
+</section>
+
+<section id="app" class="hidden">
+<div class="hero glass">
+<h1>بنوتي ❤️🫂</h1>
+<p id="counter"></p>
+<div id="message"></div>
+</div>
+
+<div class="gallery glass">
+<img src="assets/photo1.jpeg">
+<img src="assets/photo2.jpeg">
+<img src="assets/photo3.jpeg">
+</div>
+
+<div class="music glass">
+<h3>🎵 أغنيتنا</h3>
+<audio controls>
+<source src="assets/music.mp3" type="audio/mpeg">
+</audio>
+<p>يمكنك استبدال music.mp3 بأي أغنية تريدها.</p>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
