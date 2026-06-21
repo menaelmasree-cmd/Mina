@@ -1,6 +1,6 @@
 
 const secret="0310";
-const startDate = new Date("2025-01-01"); // عدل التاريخ هنا
+const startDate = new Date("2025-10-03"); // عدل التاريخ هنا
 const text = `احلي حاجه ف حياتي ❤️ اللي دايما سنداني ووقفه جمبي 🙈❤️
 
 أنا مليش غيرك 🙈💖
